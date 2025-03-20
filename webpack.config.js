@@ -3,9 +3,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import WorkboxWebpackPlugin from 'workbox-webpack-plugin';
 import { fileURLToPath } from 'url';
 
- 
 const __filename = fileURLToPath(import.meta.url);
- 
 const __dirname = path.dirname(__filename);
 
 // eslint-disable-next-line no-undef
