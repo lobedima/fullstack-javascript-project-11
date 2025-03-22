@@ -1,18 +1,17 @@
-build:
-	rm -rf dist
-	NODE_ENV=production npx webpack
+test:
+	npm test
 
-develop:
-	npx webpack serve
-
-install:
+setup:
 	npm ci
 
 lint:
 	npx eslint .
 
+lint-fix:
+	npx eslint --fix .
+
+coverage:
+	npm run coverage
+
 dependencies:
 	npm install
-
-test:
-	npm test
