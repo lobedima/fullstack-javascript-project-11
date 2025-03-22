@@ -10,3 +10,6 @@ install:
 
 lint:
 	npx eslint .
+
+dependencies:
+	npm install
