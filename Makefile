@@ -4,21 +4,9 @@ build:
 
 develop:
 	npx webpack serve
-	
-test:
-	npm test
 
-setup:
+install:
 	npm ci
 
 lint:
 	npx eslint .
-
-lint-fix:
-	npx eslint --fix .
-
-coverage:
-	npm run coverage
-
-dependencies:
-	npm install
