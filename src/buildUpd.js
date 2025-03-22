@@ -1,4 +1,3 @@
-
 export default (updData, bigData) => {
   const mainData = bigData.filter((bigDataEl) => bigDataEl.mainTitle === updData.mainTitle)[0];
   const diffData = [];
