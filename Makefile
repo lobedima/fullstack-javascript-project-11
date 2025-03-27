@@ -1,11 +1,11 @@
-develop:
+dev:
 	npx webpack serve
 
 install:
 	npm ci
 
 build:
-    rm -rf dist
+	rm -rf dist
 	NODE_ENV=production npx webpack
 
 test:
@@ -13,5 +13,3 @@ test:
 
 lint:
 	npx eslint .
-
-.PHONY: test
