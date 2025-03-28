@@ -6,7 +6,13 @@
   "scripts": {
     "test": "jest --colors"
   },
-  
+  "jest": {
+    "verbose": true,
+    "testEnvironmentOptions": {
+      "url": "http://localhost/"
+    },
+    "testEnvironment": "jsdom"
+  },
   "devDependencies": {
     "babel-cli": "^6.9.0",
     "babel-plugin-add-module-exports": "^0.2.1",
@@ -49,17 +55,7 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.11.1"
   },
-  "bake": {
-    "description": "Scaffold a basic ES6 setup",
-    "scripts": {
-      "start": "echo Starting generation of default template",
-      "prestart": "echo prestart",
-      "poststart": "echo poststart",
-      "install": "npm install --loglevel warn --cache-min Infinity",
-      "preinstall": "echo Installing dependencies ...",
-      "postinstall": "npm ls --depth 0"
-    }
-  },
+  "keywords": [],
   "type": "module",
   "author": "Lyubenko Dmitriy",
   "license": "ISC",
