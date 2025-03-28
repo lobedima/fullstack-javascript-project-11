@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 const setLocalizedTexts = (elements, i18n) => {
   elements.modal.title.textContent = i18n.t('modal.title');
   elements.modal.footer.querySelector('.btn-secondary').textContent = i18n.t('modal.closeButton');

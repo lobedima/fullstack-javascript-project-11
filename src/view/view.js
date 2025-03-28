@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import onChange from 'on-change';
 import renderStatus from './renderStatus.js';
 import renderModal from './renderModal.js';

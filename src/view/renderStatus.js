@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 // import renderModal from './renderModal';
 // import renderVisitedLinks from './renderVisitedLinks';
 
