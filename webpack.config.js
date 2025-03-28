@@ -5,9 +5,9 @@ export default {
   devServer: {
     client: {
       overlay: false,
-      webSocketTransport: 'ws'
+      webSocketTransport: 'ws',
     },
-    webSocketServer: 'ws'
+    webSocketServer: 'ws',
   },
   module: {
     rules: [
